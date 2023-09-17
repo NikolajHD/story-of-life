@@ -1,0 +1,121 @@
+body {
+    background-image: url("photos/race-sperm.gif");
+    background-color: #cccccc;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gameover {
+    background-image: url("photos/gameover.gif");
+    background-color: #cccccc;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.main {
+    padding: 40px;
+    text-align: center;
+}
+
+.index {
+    padding: 0px;
+    text-align: center;
+}
+
+.happy {
+    max-width: 20%;
+    height: auto;
+    margin: 0px 0px;
+    border-radius: 2%;
+}
+
+.lego {
+    max-width: 200%;
+    height: auto;
+    margin: 0px 0px;
+    border-radius: 2%;
+}
+
+p {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    /* Background color */
+    color: white;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline from the link */
+    border: 5px solid plum;
+    /* Border with stroke color */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    /* Smooth transition */
+    opacity: 90%;
+}
+
+.gameoverp {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    /* Background color */
+    color: white;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline from the link */
+    border: 5px solid red;
+    /* Border with stroke color */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    /* Smooth transition */
+    opacity: 90%;
+}
+
+.button {
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    border: 5px solid plum;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+    opacity: 90%;
+    font-weight: bold;
+}
+
+.button1 {
+    border: none;
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+    opacity: 90%;
+    font-weight: bold;
+}
